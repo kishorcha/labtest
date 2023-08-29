@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 100px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    text-align: center;
+    margin-left: 600px;
+}
+
+.dg {
+    text-align: center;
+}
+.ct{
+    text-align: center;
+}
+img:hover{
+    background-color: burlywood;
+}
+h1:hover{
+    color: blueviolet;
+}
+body{
+    background-color: aqua;
+}
