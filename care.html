@@ -4,29 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
-        h1{
-            text-align: center;
-        }
-        img{
-            margin-left: 300px;
-            border: 3px solid black;
-        }
-        ol li{
-            text-align: center;
-        }
-        li{
-            text-align: center;
-        }
-        h1:hover{
-            color: blue;
-        }
+        /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Center align the h1 */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Center align images and add border */
+img {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid black;
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+}
+
+/* Center align text in ol and li */
+ol li, li {
+    text-align: center;
+}
+
+/* Add hover effect for h1 */
+h1:hover {
+    color: blue;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    img {
+        margin-left: 0; /* Remove margin on smaller screens */
+    }
+}
+
     </style>
 </head>
 <body>
     <h1>How to take care of pets at home?</h1>
     
-
     <img src="./pets.jpg" alt="">
 
     <ol>
@@ -40,6 +64,6 @@
         <li><h2>Keep them away from dust and allergies</h2></li>
     </ol>
 
-    <a href="./healpful.html">Healpfull</a>
+    <a href="./helpful.html">Helpful</a>
 </body>
 </html>

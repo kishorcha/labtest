@@ -5,32 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        img{
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Center align the h1 */
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Center align text in ol and li */
+        ol li, li {
+            text-align: center;
+        }
+
+        /* Make images responsive */
+        img {
+            display: block;
             width: 100%;
             height: auto;
+            margin: 0 auto;
         }
-        h1{
-          text-align: center;
-          /* color: chartreuse; */
+
+        /* Add hover effect for h1 */
+        h1:hover {
+            color: chartreuse;
         }
-        h1:hover{
-          /* text-align: center; */
-          color: chartreuse;
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px; /* Adjust font size for smaller screens */
+            }
         }
     </style>
 </head>
 <body>
-    <h1 >10 Responsible Pet Care Tips</h1>
+    <h1>10 Responsible Pet Care Tips</h1>
     <img src="./How-to-Look-After-a-Dog-for-Kids.png" alt="">
     <ol>
         <li><h2>Veterinarian Visits</h2></li>
         <li><h2>Vaccinations</h2></li>
         <li><h2>Proper Identification</h2></li>
-        <li><h2> Healthy Food</h2></li>
+        <li><h2>Healthy Food</h2></li>
         <li><h2>Comfy Quarters</h2></li>
         <li><h2>Training and Socializing</h2></li>
         <li><h2>Following Dog Park Rules</h2></li>
-        <li><h2> Safe Playtime</h2></li>
+        <li><h2>Safe Playtime</h2></li>
     </ol>
 </body>
 </html>
